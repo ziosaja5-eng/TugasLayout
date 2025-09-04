@@ -9,7 +9,6 @@
         android:layout_height="wrap_content"
         android:padding="16dp">
 
-        <!-- Foto Profil -->
         <ImageView
             android:id="@+id/profileImage"
             android:layout_width="120dp"
@@ -22,7 +21,6 @@
             android:background="@drawable/ic_launcher_background"
             android:layout_marginBottom="10dp"/>
 
-        <!-- Nama -->
         <TextView
             android:id="@+id/tvNama"
             android:layout_width="wrap_content"
@@ -34,7 +32,6 @@
             android:textStyle="bold"
             android:textColor="#000"/>
 
-        <!-- NIM -->
         <TextView
             android:id="@+id/tvNim"
             android:layout_width="wrap_content"
@@ -46,7 +43,6 @@
             android:textSize="16sp"
             android:textColor="#555"/>
 
-        <!-- Prodi -->
         <TextView
             android:id="@+id/tvProdi"
             android:layout_width="wrap_content"
@@ -58,7 +54,6 @@
             android:textSize="16sp"
             android:textColor="#000"/>
 
-        <!-- Jurusan -->
         <TextView
             android:id="@+id/tvJurusan"
             android:layout_width="wrap_content"
@@ -70,7 +65,6 @@
             android:textColor="#000"
             android:textSize="16sp" />
 
-        <!-- Card Jadwal -->
         <LinearLayout
             android:id="@+id/cardJadwal"
             android:layout_width="match_parent"
@@ -100,7 +94,6 @@
                 android:text="2. Konsep Jaringan Komputer - Senin 10:00"/>
         </LinearLayout>
 
-        <!-- Card Informasi -->
         <LinearLayout
             android:id="@+id/cardInfo"
             android:layout_width="match_parent"
@@ -130,7 +123,6 @@
                 android:text="Konsep Jaringan Komputer → 2 SKS, Dosen: Pak Agus Purwadi, Ruang: Lantai 4.1"/>
         </LinearLayout>
 
-        <!-- Dua card sejajar: Kontak & Hobi -->
         <LinearLayout
             android:id="@+id/rowCards"
             android:layout_width="match_parent"
@@ -199,7 +191,6 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Tombol Aksi sejajar -->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

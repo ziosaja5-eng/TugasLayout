@@ -10,11 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TugasLayout">
 
-        <!-- Activity Relative dan Linear cukup sekali -->
         <activity android:name=".RelativeLayoutActivity" />
         <activity android:name=".LinearLayoutActivity" />
 
-        <!-- MainActivity jadi launcher -->
+
         <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
